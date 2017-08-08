@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36CF33ECF96BDF75EFEA08CC /* Pods_shops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797243E3832B7C50D25A1567 /* Pods_shops.framework */; };
 		A2574E771F39A73C00B11F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2574E761F39A73C00B11F46 /* AppDelegate.swift */; };
 		A2574E791F39A73C00B11F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2574E781F39A73C00B11F46 /* ViewController.swift */; };
 		A2574E7C1F39A73C00B11F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2574E7A1F39A73C00B11F46 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		A2574E811F39A73C00B11F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2574E801F39A73C00B11F46 /* Assets.xcassets */; };
 		A2574E841F39A73C00B11F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2574E821F39A73C00B11F46 /* LaunchScreen.storyboard */; };
 		A2574E8F1F39A73C00B11F46 /* shopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2574E8E1F39A73C00B11F46 /* shopsTests.swift */; };
+		A2574E9A1F39A85900B11F46 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2574E991F39A85900B11F46 /* ShopsViewController.swift */; };
+		A2574E9C1F39AC5600B11F46 /* AddShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2574E9B1F39AC5600B11F46 /* AddShopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		797243E3832B7C50D25A1567 /* Pods_shops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2574E731F39A73C00B11F46 /* shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2574E761F39A73C00B11F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2574E781F39A73C00B11F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		A2574E8A1F39A73C00B11F46 /* shopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2574E8E1F39A73C00B11F46 /* shopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopsTests.swift; sourceTree = "<group>"; };
 		A2574E901F39A73C00B11F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2574E991F39A85900B11F46 /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
+		A2574E9B1F39AC5600B11F46 /* AddShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddShopViewController.swift; sourceTree = "<group>"; };
+		DD5BF156185EA6CCC6955149 /* Pods-shops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shops.release.xcconfig"; path = "Pods/Target Support Files/Pods-shops/Pods-shops.release.xcconfig"; sourceTree = "<group>"; };
+		F5FC493E9778BC40D0F1D575 /* Pods-shops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shops.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shops/Pods-shops.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CF33ECF96BDF75EFEA08CC /* Pods_shops.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2518EE10A5F320EEB9FEE10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				797243E3832B7C50D25A1567 /* Pods_shops.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2574E6A1F39A73C00B11F46 = {
 			isa = PBXGroup;
 			children = (
 				A2574E751F39A73C00B11F46 /* shops */,
 				A2574E8D1F39A73C00B11F46 /* shopsTests */,
 				A2574E741F39A73C00B11F46 /* Products */,
+				F1477E4095F981861E8BAF1B /* Pods */,
+				2518EE10A5F320EEB9FEE10D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +105,8 @@
 				A2574E821F39A73C00B11F46 /* LaunchScreen.storyboard */,
 				A2574E851F39A73C00B11F46 /* Info.plist */,
 				A2574E7D1F39A73C00B11F46 /* shops.xcdatamodeld */,
+				A2574E991F39A85900B11F46 /* ShopsViewController.swift */,
+				A2574E9B1F39AC5600B11F46 /* AddShopViewController.swift */,
 			);
 			path = shops;
 			sourceTree = "<group>";
@@ -99,6 +120,15 @@
 			path = shopsTests;
 			sourceTree = "<group>";
 		};
+		F1477E4095F981861E8BAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5FC493E9778BC40D0F1D575 /* Pods-shops.debug.xcconfig */,
+				DD5BF156185EA6CCC6955149 /* Pods-shops.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2574E931F39A73C00B11F46 /* Build configuration list for PBXNativeTarget "shops" */;
 			buildPhases = (
+				97C69B8DFE8FDD27E94B97E9 /* [CP] Check Pods Manifest.lock */,
 				A2574E6F1F39A73C00B11F46 /* Sources */,
 				A2574E701F39A73C00B11F46 /* Frameworks */,
 				A2574E711F39A73C00B11F46 /* Resources */,
+				39DA0EF90AA467B6039961BE /* [CP] Embed Pods Frameworks */,
+				7B892AF806B49D6188C65249 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,13 +230,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39DA0EF90AA467B6039961BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shops/Pods-shops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B892AF806B49D6188C65249 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shops/Pods-shops-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C69B8DFE8FDD27E94B97E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2574E6F1F39A73C00B11F46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2574E9A1F39A85900B11F46 /* ShopsViewController.swift in Sources */,
 				A2574E791F39A73C00B11F46 /* ViewController.swift in Sources */,
 				A2574E771F39A73C00B11F46 /* AppDelegate.swift in Sources */,
+				A2574E9C1F39AC5600B11F46 /* AddShopViewController.swift in Sources */,
 				A2574E7F1F39A73C00B11F46 /* shops.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +424,7 @@
 		};
 		A2574E941F39A73C00B11F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FC493E9778BC40D0F1D575 /* Pods-shops.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = shops/Info.plist;
@@ -353,6 +437,7 @@
 		};
 		A2574E951F39A73C00B11F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5BF156185EA6CCC6955149 /* Pods-shops.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = shops/Info.plist;
